@@ -2,6 +2,17 @@ body {
 	color: #666;
 	background-color: #fff;
 }
- .row, #sidebar {
+ #sidebar {
  	display: inline-block;
+ 	background-color: rgba(200,200,200,0.6);
+ }
+
+.sidebar-box {
+	background-color: #fff;
+	padding: 10px;
+	margin: 10px
+}
+
+ #map-canvas div {
+ 	position: fixed !important;
  }
